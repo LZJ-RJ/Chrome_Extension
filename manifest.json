@@ -1,0 +1,15 @@
+{
+  "name":"Filter Something on Facebook",
+  "version":"1.0",
+  "description":"test",
+  "permissions": ["activeTab","declarativeContent","storage"],
+  "background": {
+    "scripts": ["background_01.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html",
+  "manifest_version":2
+}
